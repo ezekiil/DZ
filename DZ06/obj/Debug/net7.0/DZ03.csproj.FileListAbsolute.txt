@@ -1,0 +1,15 @@
+C:\Users\ezeki\Desktop\DZ\DZ06\obj\Debug\net7.0\DZ03.csproj.AssemblyReference.cache
+C:\Users\ezeki\Desktop\DZ\DZ06\obj\Debug\net7.0\DZ03.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ezeki\Desktop\DZ\DZ06\obj\Debug\net7.0\DZ03.AssemblyInfoInputs.cache
+C:\Users\ezeki\Desktop\DZ\DZ06\obj\Debug\net7.0\DZ03.AssemblyInfo.cs
+C:\Users\ezeki\Desktop\DZ\DZ06\obj\Debug\net7.0\DZ03.csproj.CoreCompileInputs.cache
+C:\Users\ezeki\Desktop\DZ\DZ06\bin\Debug\net7.0\DZ03.exe
+C:\Users\ezeki\Desktop\DZ\DZ06\bin\Debug\net7.0\DZ03.deps.json
+C:\Users\ezeki\Desktop\DZ\DZ06\bin\Debug\net7.0\DZ03.runtimeconfig.json
+C:\Users\ezeki\Desktop\DZ\DZ06\bin\Debug\net7.0\DZ03.dll
+C:\Users\ezeki\Desktop\DZ\DZ06\bin\Debug\net7.0\DZ03.pdb
+C:\Users\ezeki\Desktop\DZ\DZ06\obj\Debug\net7.0\DZ03.dll
+C:\Users\ezeki\Desktop\DZ\DZ06\obj\Debug\net7.0\refint\DZ03.dll
+C:\Users\ezeki\Desktop\DZ\DZ06\obj\Debug\net7.0\DZ03.pdb
+C:\Users\ezeki\Desktop\DZ\DZ06\obj\Debug\net7.0\DZ03.genruntimeconfig.cache
+C:\Users\ezeki\Desktop\DZ\DZ06\obj\Debug\net7.0\ref\DZ03.dll
