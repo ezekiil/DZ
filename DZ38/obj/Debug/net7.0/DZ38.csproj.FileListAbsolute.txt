@@ -1,0 +1,15 @@
+C:\Users\ezeki\Desktop\DZ\DZ38\bin\Debug\net7.0\DZ38.exe
+C:\Users\ezeki\Desktop\DZ\DZ38\bin\Debug\net7.0\DZ38.deps.json
+C:\Users\ezeki\Desktop\DZ\DZ38\bin\Debug\net7.0\DZ38.runtimeconfig.json
+C:\Users\ezeki\Desktop\DZ\DZ38\bin\Debug\net7.0\DZ38.dll
+C:\Users\ezeki\Desktop\DZ\DZ38\bin\Debug\net7.0\DZ38.pdb
+C:\Users\ezeki\Desktop\DZ\DZ38\obj\Debug\net7.0\DZ38.csproj.AssemblyReference.cache
+C:\Users\ezeki\Desktop\DZ\DZ38\obj\Debug\net7.0\DZ38.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ezeki\Desktop\DZ\DZ38\obj\Debug\net7.0\DZ38.AssemblyInfoInputs.cache
+C:\Users\ezeki\Desktop\DZ\DZ38\obj\Debug\net7.0\DZ38.AssemblyInfo.cs
+C:\Users\ezeki\Desktop\DZ\DZ38\obj\Debug\net7.0\DZ38.csproj.CoreCompileInputs.cache
+C:\Users\ezeki\Desktop\DZ\DZ38\obj\Debug\net7.0\DZ38.dll
+C:\Users\ezeki\Desktop\DZ\DZ38\obj\Debug\net7.0\refint\DZ38.dll
+C:\Users\ezeki\Desktop\DZ\DZ38\obj\Debug\net7.0\DZ38.pdb
+C:\Users\ezeki\Desktop\DZ\DZ38\obj\Debug\net7.0\DZ38.genruntimeconfig.cache
+C:\Users\ezeki\Desktop\DZ\DZ38\obj\Debug\net7.0\ref\DZ38.dll
