@@ -1,5 +1,5 @@
 ﻿/* задайте массив вещественных чисел.
-найдите разницу между максимальным и минимальным элементов массива.
+найдите разницу между максимальным и минимальным элементом массива.
 [3 7 22 2 78] -> 76
 */
 
@@ -8,18 +8,19 @@ void FillArray(int[] array)
     for (int i = 0; i < array.Length; i++)
     {
         array[i] = new Random().Next(1, 100);
-    }
+    }    
 }
 
 void PrintArray(int[] array)
 {
     for (int i = 0; i < array.Length; i++)
     {
-        Console.WriteLine($"{array[i]} ");
+        Console.Write($"{array[i]} ");
     }
+    Console.WriteLine();
 }
 
-int DifferenceMaxMin(int[] array)
+void Difference(int[] array)
 {
     int max = array[0];
     int min = array[0];
@@ -34,13 +35,12 @@ int DifferenceMaxMin(int[] array)
             min = array[i];
         }
     }
-     return max - min;
+    Console.WriteLine($"Разница между максимальным и минимальным элементом массива {max} - {min} = {max - min}");
 }
 
-int[] array = new int[5];
-
+Console.Write("Введите количество элементов массива: ");
+int n = Convert.ToInt32(Console.ReadLine());
+int[] array = new int[n];
 FillArray(array);
 PrintArray(array);
-Console.WriteLine();
-Console.WriteLine($"разница между максимальным и минимальным элементами массива = {DifferenceMaxMin(array)}");
-
+Difference(array);
