@@ -9,7 +9,7 @@ Console.WriteLine("Введите второе число");
 int b = Convert.ToInt32(Console.ReadLine());
 if (a > b)
 {
-    Console.WriteLine($"max = {a}");
+    Console.WriteLine($"max = {a}"); // вывод максимального числа
 }
 else
 {

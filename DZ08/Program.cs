@@ -5,9 +5,9 @@
 
 Console.WriteLine("Введите число: ");
 int N = Convert.ToInt32(Console.ReadLine());
-int i = 2;
-while (i <= N)
+int i = 2; // счетчик четных чисел  
+while (i <= N) // условие для вывода четных чисел 
 {
-    Console.Write(i + " ");
-    i+=2;
+    Console.Write(i + " "); // вывод четных чисел 
+    i+=2; // увеличение счетчика четных чисел на 2 
 }

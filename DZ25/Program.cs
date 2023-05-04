@@ -3,12 +3,12 @@
 3, 5 -> 243 (3^5)
 2, 4 -> 16 */
 
-void Pow(int a, int b)
+void Pow(int a, int b) // функция возведения в степень
 {
     int result = 1;
-    for (int i = 1; i <= b; i++)
+    for (int i = 1; i <= b; i++) 
     {
-        result *= a;
+        result *= a; // возведение в степень 
     }
     Console.WriteLine(result);
 }
@@ -17,4 +17,4 @@ Console.WriteLine("Введите число A: ");
 int a = int.Parse(Console.ReadLine()!);
 Console.WriteLine("Введите число B: ");
 int b = int.Parse(Console.ReadLine()!);
-Pow(a, b);
+Pow(a, b); // вызов функции

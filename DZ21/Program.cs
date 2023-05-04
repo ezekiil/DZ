@@ -3,9 +3,9 @@
 А(3,6,8), B(2,1,-7), -> 15.84
 A(7,-5, 0) , B(1,-1,9) -> 11.53 */
 
-void Distance(int x1, int y1, int z1, int x2, int y2, int z2)
+void Distance(int x1, int y1, int z1, int x2, int y2, int z2) // функция расстояния между точками в 3D пространстве 
 {
-    double distance = Math.Sqrt(Math.Pow((x2 - x1), 2) + Math.Pow((y2 - y1), 2) + Math.Pow((z2 - z1), 2));
+    double distance = Math.Sqrt(Math.Pow((x2 - x1), 2) + Math.Pow((y2 - y1), 2) + Math.Pow((z2 - z1), 2)); // функция расстояния между точками в 3D пространстве
     Console.WriteLine(distance);
 }
 

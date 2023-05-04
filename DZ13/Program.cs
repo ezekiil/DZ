@@ -7,7 +7,7 @@
 
 Console.WriteLine("Введите число: ");
 int N = Convert.ToInt32(Console.ReadLine());
-int numDigit = Convert.ToString(N).Length; // количество цифр в числе
+int numDigit = Convert.ToString(N).Length; // находим количество цифр в числе
 if (numDigit <= 2) // проверка на трехзначное число
 {
 Console.WriteLine("третьей цифры нет");

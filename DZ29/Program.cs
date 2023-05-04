@@ -3,6 +3,14 @@
 1, 2, 5, 7, 19 -> [1, 2, 5, 7, 19]
 6, 1, 33 -> [6, 1, 33] */
 
+void FillArray(int[] array)
+{
+    for (int i = 0; i < array.Length; i++)
+    {
+        array[i] = new Random().Next(1, 1000);
+    }
+}
+
 void PrintArray(int[] array)
 {
     for (int i = 0; i < array.Length; i++)
@@ -10,14 +18,6 @@ void PrintArray(int[] array)
         Console.Write($"{array[i]} ");
     }
     Console.WriteLine();
-}
-
-void FillArray(int[] array)
-{
-    for (int i = 0; i < array.Length; i++)
-    {
-        array[i] = new Random().Next(1, 1000);
-    }
 }
 
 int[] array = new int[8];
