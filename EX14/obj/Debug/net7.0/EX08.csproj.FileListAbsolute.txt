@@ -1,0 +1,15 @@
+C:\Users\ezeki\Desktop\EX\EX14\bin\Debug\net7.0\EX08.exe
+C:\Users\ezeki\Desktop\EX\EX14\bin\Debug\net7.0\EX08.deps.json
+C:\Users\ezeki\Desktop\EX\EX14\bin\Debug\net7.0\EX08.runtimeconfig.json
+C:\Users\ezeki\Desktop\EX\EX14\bin\Debug\net7.0\EX08.dll
+C:\Users\ezeki\Desktop\EX\EX14\bin\Debug\net7.0\EX08.pdb
+C:\Users\ezeki\Desktop\EX\EX14\obj\Debug\net7.0\EX08.csproj.AssemblyReference.cache
+C:\Users\ezeki\Desktop\EX\EX14\obj\Debug\net7.0\EX08.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ezeki\Desktop\EX\EX14\obj\Debug\net7.0\EX08.AssemblyInfoInputs.cache
+C:\Users\ezeki\Desktop\EX\EX14\obj\Debug\net7.0\EX08.AssemblyInfo.cs
+C:\Users\ezeki\Desktop\EX\EX14\obj\Debug\net7.0\EX08.csproj.CoreCompileInputs.cache
+C:\Users\ezeki\Desktop\EX\EX14\obj\Debug\net7.0\EX08.dll
+C:\Users\ezeki\Desktop\EX\EX14\obj\Debug\net7.0\refint\EX08.dll
+C:\Users\ezeki\Desktop\EX\EX14\obj\Debug\net7.0\EX08.pdb
+C:\Users\ezeki\Desktop\EX\EX14\obj\Debug\net7.0\EX08.genruntimeconfig.cache
+C:\Users\ezeki\Desktop\EX\EX14\obj\Debug\net7.0\ref\EX08.dll

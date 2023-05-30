@@ -1,0 +1,15 @@
+C:\Users\ezeki\Desktop\EX\EX53\bin\Debug\net7.0\EX53.exe
+C:\Users\ezeki\Desktop\EX\EX53\bin\Debug\net7.0\EX53.deps.json
+C:\Users\ezeki\Desktop\EX\EX53\bin\Debug\net7.0\EX53.runtimeconfig.json
+C:\Users\ezeki\Desktop\EX\EX53\bin\Debug\net7.0\EX53.dll
+C:\Users\ezeki\Desktop\EX\EX53\bin\Debug\net7.0\EX53.pdb
+C:\Users\ezeki\Desktop\EX\EX53\obj\Debug\net7.0\EX53.csproj.AssemblyReference.cache
+C:\Users\ezeki\Desktop\EX\EX53\obj\Debug\net7.0\EX53.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ezeki\Desktop\EX\EX53\obj\Debug\net7.0\EX53.AssemblyInfoInputs.cache
+C:\Users\ezeki\Desktop\EX\EX53\obj\Debug\net7.0\EX53.AssemblyInfo.cs
+C:\Users\ezeki\Desktop\EX\EX53\obj\Debug\net7.0\EX53.csproj.CoreCompileInputs.cache
+C:\Users\ezeki\Desktop\EX\EX53\obj\Debug\net7.0\EX53.dll
+C:\Users\ezeki\Desktop\EX\EX53\obj\Debug\net7.0\refint\EX53.dll
+C:\Users\ezeki\Desktop\EX\EX53\obj\Debug\net7.0\EX53.pdb
+C:\Users\ezeki\Desktop\EX\EX53\obj\Debug\net7.0\EX53.genruntimeconfig.cache
+C:\Users\ezeki\Desktop\EX\EX53\obj\Debug\net7.0\ref\EX53.dll

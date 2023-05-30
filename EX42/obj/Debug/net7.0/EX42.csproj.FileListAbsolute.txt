@@ -1,0 +1,15 @@
+C:\Users\ezeki\Desktop\DZ\EX42\obj\Debug\net7.0\EX42.csproj.AssemblyReference.cache
+C:\Users\ezeki\Desktop\DZ\EX42\obj\Debug\net7.0\EX42.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ezeki\Desktop\DZ\EX42\obj\Debug\net7.0\EX42.AssemblyInfoInputs.cache
+C:\Users\ezeki\Desktop\DZ\EX42\obj\Debug\net7.0\EX42.AssemblyInfo.cs
+C:\Users\ezeki\Desktop\DZ\EX42\obj\Debug\net7.0\EX42.csproj.CoreCompileInputs.cache
+C:\Users\ezeki\Desktop\DZ\EX42\bin\Debug\net7.0\EX42.exe
+C:\Users\ezeki\Desktop\DZ\EX42\bin\Debug\net7.0\EX42.deps.json
+C:\Users\ezeki\Desktop\DZ\EX42\bin\Debug\net7.0\EX42.runtimeconfig.json
+C:\Users\ezeki\Desktop\DZ\EX42\bin\Debug\net7.0\EX42.dll
+C:\Users\ezeki\Desktop\DZ\EX42\bin\Debug\net7.0\EX42.pdb
+C:\Users\ezeki\Desktop\DZ\EX42\obj\Debug\net7.0\EX42.dll
+C:\Users\ezeki\Desktop\DZ\EX42\obj\Debug\net7.0\refint\EX42.dll
+C:\Users\ezeki\Desktop\DZ\EX42\obj\Debug\net7.0\EX42.pdb
+C:\Users\ezeki\Desktop\DZ\EX42\obj\Debug\net7.0\EX42.genruntimeconfig.cache
+C:\Users\ezeki\Desktop\DZ\EX42\obj\Debug\net7.0\ref\EX42.dll

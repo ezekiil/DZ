@@ -1,0 +1,15 @@
+C:\Users\ezeki\Desktop\DZ\EX20\bin\Debug\net7.0\EX20.exe
+C:\Users\ezeki\Desktop\DZ\EX20\bin\Debug\net7.0\EX20.deps.json
+C:\Users\ezeki\Desktop\DZ\EX20\bin\Debug\net7.0\EX20.runtimeconfig.json
+C:\Users\ezeki\Desktop\DZ\EX20\bin\Debug\net7.0\EX20.dll
+C:\Users\ezeki\Desktop\DZ\EX20\bin\Debug\net7.0\EX20.pdb
+C:\Users\ezeki\Desktop\DZ\EX20\obj\Debug\net7.0\EX20.csproj.AssemblyReference.cache
+C:\Users\ezeki\Desktop\DZ\EX20\obj\Debug\net7.0\EX20.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ezeki\Desktop\DZ\EX20\obj\Debug\net7.0\EX20.AssemblyInfoInputs.cache
+C:\Users\ezeki\Desktop\DZ\EX20\obj\Debug\net7.0\EX20.AssemblyInfo.cs
+C:\Users\ezeki\Desktop\DZ\EX20\obj\Debug\net7.0\EX20.csproj.CoreCompileInputs.cache
+C:\Users\ezeki\Desktop\DZ\EX20\obj\Debug\net7.0\EX20.dll
+C:\Users\ezeki\Desktop\DZ\EX20\obj\Debug\net7.0\refint\EX20.dll
+C:\Users\ezeki\Desktop\DZ\EX20\obj\Debug\net7.0\EX20.pdb
+C:\Users\ezeki\Desktop\DZ\EX20\obj\Debug\net7.0\EX20.genruntimeconfig.cache
+C:\Users\ezeki\Desktop\DZ\EX20\obj\Debug\net7.0\ref\EX20.dll
