@@ -9,14 +9,15 @@
 и выдает номер строки с наименьшей суммой элементов: 1я строка
 */
 
-int [,]FillMatrix(int rows, int columns, int min, int max)
+int[,] FillMatrix(int rows, int columns, int min, int max)
 {
     int[,] matrix = new int[rows, columns];
-    for (int i = 0; i < rows; i++)
+    Random rnd = new Random();
+    for (int i = 0; i < matrix.GetLength(0); i++)
     {
-        for (int j = 0; j < columns; j++)
+        for (int j = 0; j < matrix.GetLength(1); j++)
         {
-            matrix[i, j] = new Random().Next(min, max + 1);
+            matrix[i, j] = rnd.Next(min, max + 1);
         }
     }
     return matrix;
@@ -24,41 +25,42 @@ int [,]FillMatrix(int rows, int columns, int min, int max)
 
 void PrintMatrix(int[,] matrix)
 {
-    Console.WriteLine();
     for (int i = 0; i < matrix.GetLength(0); i++)
     {
         for (int j = 0; j < matrix.GetLength(1); j++)
         {
-            Console.Write($"{matrix[i, j]} ");
+            Console.Write(matrix[i, j] + " ");
         }
         Console.WriteLine();
     }
 }
 
-void SortMatrix(int[,] matrix, int k)
+void SortMatrix(int[,] matrix)
 {
-    for (int i = 0, minStr = int.MaxValue, sum = 0; i < matrix.GetLength(0); i++)
+    int sum = 0, min = int.MaxValue, k = 0;
+    for (int i = 0; i < matrix.GetLength(0); i++)
     {
         for (int j = 0; j < matrix.GetLength(1); j++)
         {
             sum += matrix[i, j];
-            if (sum < minStr) minStr = sum; k = (i);
         }
+        if (sum < min) k = i; min = sum;
+        sum = 0;
     }
-    Console.WriteLine($"номер строки с наименьшей суммой элементов: {k+1}");
-    return;
+    Console.WriteLine($"Строка с наименьшей суммой элементов: {k + 1}");
 }
 
-Console.Write("Введите количество строк ");
+Console.Write("Введите количество строк: ");
 int rows = int.Parse(Console.ReadLine()!);
-Console.Write("Введите количество столбцов ");
+Console.Write("Введите количество столбцов: ");
 int columns = int.Parse(Console.ReadLine()!);
-Console.Write("Введите минимальное значение ");
+Console.Write("Введите минимальное значение: ");
 int min = int.Parse(Console.ReadLine()!);
-Console.Write("Введите максимальное значение ");
+Console.Write("Введите максимальное значение: ");
 int max = int.Parse(Console.ReadLine()!);
 
 int[,] matrix = FillMatrix(rows, columns, min, max);
+
 PrintMatrix(matrix);
-SortMatrix(matrix, 1);
+SortMatrix(matrix);
 Console.WriteLine();

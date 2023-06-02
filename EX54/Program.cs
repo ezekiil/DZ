@@ -56,13 +56,13 @@ int[,] SortMatrix(int[,] matrix) // сортировка двумерного м
     return matrix;
 }
 
-Console.WriteLine("Введите количество строк");
+Console.Write("Введите количество строк: ");
 int rows = int.Parse(Console.ReadLine()!);
-Console.WriteLine("Введите количество столбцов");
+Console.Write("Введите количество столбцов: ");
 int columns = int.Parse(Console.ReadLine()!);
-Console.WriteLine("Введите минимальное значение");
+Console.Write("Введите минимальное значение: ");
 int min = int.Parse(Console.ReadLine()!);
-Console.WriteLine("Введите максимальное значение");
+Console.Write("Введите максимальное значение: ");
 int max = int.Parse(Console.ReadLine()!);
 
 int[,] matrix = FillMatrix(rows, columns, min, max);

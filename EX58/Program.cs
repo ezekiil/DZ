@@ -8,7 +8,7 @@
 15 18
 */
 
-int[,] FillMatrix(int rows, int columns, int min, int max)
+int[,] FillMatrix1(int rows, int columns, int min, int max)
 {
     int[,] matrix = new int[rows, columns];
     for (int i = 0; i < rows; i++)
@@ -20,6 +20,20 @@ int[,] FillMatrix(int rows, int columns, int min, int max)
     }
     return matrix;
 }
+
+void PrintMatrix1(int[,] matrix)
+{
+    for (int i = 0; i < matrix.GetLength(0); i++)
+    {
+        for (int j = 0; j < matrix.GetLength(1); j++)
+        {
+            Console.Write($"{matrix[i, j]} ");
+        }
+        Console.WriteLine();
+    }
+}
+
+
 
 void PrintMatrix(int[,] matrix)
 {
@@ -53,7 +67,16 @@ int[,] SortMatrix(int[,] matrix)
     return matrix;
 }
 
-int[,] matrix = FillMatrix(3, 4, 1, 9);
+Console.WriteLine("задайте количество строк для 2х матриц: ");
+int rows = int.Parse(Console.ReadLine()!);
+Console.WriteLine("задайте количество столбцов для 2х матриц: ");
+int columns = int.Parse(Console.ReadLine()!);
+Console.WriteLine("задайте минимальное число: ");
+int min = int.Parse(Console.ReadLine()!);
+Console.WriteLine("задайте максимальное число: ");
+int max = int.Parse(Console.ReadLine()!);
+
+int[,] matrix = FillMatrix(rows, columns, min, max);
 PrintMatrix(matrix);
 Console.WriteLine();
 PrintMatrix(SortMatrix(matrix));
