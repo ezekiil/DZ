@@ -12,8 +12,8 @@ int Ackermann(int m, int n)
     return Ackermann(m, n);
 }
 
-Console.WriteLine("Введите число m: ");
+Console.Write("Введите число m: ");
 int m = int.Parse(Console.ReadLine()!);
-Console.WriteLine("Введите число n: ");
+Console.Write("Введите число n: ");
 int n = int.Parse(Console.ReadLine()!);
-Console.WriteLine(Ackermann(m, n));
+Console.WriteLine($"функция Aккермана от чисел {m} и {n} = {Ackermann(m, n)}");

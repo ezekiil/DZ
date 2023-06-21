@@ -12,8 +12,8 @@ int Sum(int m, int n)
     return 0;
 }
 
-Console.WriteLine("Введите число M: ");
+Console.Write("Введите число M: ");
 int M = int.Parse(Console.ReadLine()!);
-Console.WriteLine("Введите число N: ");
+Console.Write("Введите число N: ");
 int N = int.Parse(Console.ReadLine()!);
-Console.WriteLine($"сумма элементов в промежутке от {M} до {N} = {Sum(M, N)}");
+Console.WriteLine($"сумма чисел в промежутке от {M} до {N} = {Sum(M, N)}");
