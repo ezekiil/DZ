@@ -7,53 +7,42 @@
 26(1,0,1) 55(1,1,1)
 */
 
-int [,] FillMatrix(int rows, int columns, int min, int max)
+int[,,] FillMatrix(int M, int N, int Z)
 {
-    int[,] matrix = new int[rows, columns];
-    for (int i = 0; i < rows; i++)
+    int[,,] matrix = new int[M, N, Z];
+    for (int i = 0; i < M; i++)
     {
-        for (int j = 0; j < columns; j++)
+        for (int j = 0; j < N; j++)
         {
-            matrix[i, j] = new Random().Next(min, max + 1);
-        }
-    }
-    return matrix;
-}
-
-void PrintMatrix(int[,] matrix)
-{
-    for (int i = 0; i < matrix.GetLength(0); i++)
-    {
-        for (int j = 0; j < matrix.GetLength(1); j++)
-        {
-            Console.Write($"{matrix[i, j]} ");
-        }
-        Console.WriteLine();
-    }
-}
-
-int[,] SortMatrix(int[,] matrix)
-{
-    for (int i = 0; i < matrix.GetLength(0); i++)
-    {
-        for (int j = 0; j < matrix.GetLength(1); j++)
-        {
-            for (int k = 0; k < matrix.GetLength(1) - 1; k++)
+            for (int k = 0; k < Z; k++)
             {
-                if (matrix[i, k] < matrix[i, k + 1])
-                {
-                    int temp = matrix[i, k + 1];
-                    matrix[i, k + 1] = matrix[i, k];
-                    matrix[i, k] = temp;
-                }
+                matrix[i, j, k] = new Random().Next(10, 100);
             }
         }
     }
     return matrix;
 }
 
-int[,] matrix = FillMatrix(3, 4, 1, 9);
+void PrintMatrix(int[,,] matrix)
+{
+    for (int i = 0; i < matrix.GetLength(0); i++)
+    {
+        for (int j = 0; j < matrix.GetLength(1); j++)
+        {
+            for (int k = 0; k < matrix.GetLength(2); k++)
+            {
+                Console.Write($"{matrix[i, j, k]}({i},{j},{k}) ");
+            }
+            Console.WriteLine();
+        }
+    }
+}
+
+
+// Console.WriteLine("Введите размер массива: ");
+// int M = int.Parse(Console.ReadLine()!);
+// int N = int.Parse(Console.ReadLine()!);
+// int Z = int.Parse(Console.ReadLine()!);
+int[,,] matrix = FillMatrix(2, 2, 2);
 PrintMatrix(matrix);
 Console.WriteLine();
-PrintMatrix(SortMatrix(matrix));
-

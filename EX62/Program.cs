@@ -6,48 +6,38 @@
 10 09 08 07
 */
 
-int [,] FillMatrix(int rows, int columns)
+void FilleArray(int[,] array)
 {
-    int[,] matrix = new int[rows, columns];
-    for (int i = 0; i < rows; i++)
+    int count = 1, i = 0, j = 0;
+    while (count <= array.GetLength(0) * array.GetLength(1))
     {
-        for (int j = 0; j < columns; j++)
-        {
-            matrix[i, j] = new Random().Next(1, 10);
-        }
+        array[i, j] = count;
+        count++;
+        if (i <= j + 1 && i + j < array.GetLength(1) - 1)
+            j++;
+        else if (i < j && i + j >= array.GetLength(0) - 1)
+            i++;
+        else if (i >= j && i + j > array.GetLength(1) - 1)
+            j--;
+        else
+            i--;
     }
-    return matrix;
 }
 
-void PrintMatrix(int[,] matrix)
+void PrintArray(int[,] array)
 {
-    for (int i = 0; i < matrix.GetLength(0); i++)
+    for (int i = 0; i < array.GetLength(0); i++)
     {
-        for (int j = 0; j < matrix.GetLength(1); j++)
+        for (int j = 0; j < array.GetLength(1); j++)
         {
-            Console.Write($"{matrix[i, j]} ");
+            Console.Write(array[i, j] + " ");
         }
         Console.WriteLine();
     }
 }
 
-int[,] SortMatrix(int[,] matrix)
-{
-    for (int i = 0; i < matrix.GetLength(0); i++)
-    {
-        for (int j = 0; j < matrix.GetLength(1); j++)
-        {
-            
-        }
-    }
-}
-
-
-Console.WriteLine("Введите размер массива ");
-int N = int.Parse(Console.ReadLine()!);
-int[,] matrix = FillMatrix(N, N);
-PrintMatrix(matrix);
-Console.WriteLine();
-PrintMatrix(SortMatrix(matrix));
-
-
+Console.Write("введите размер массива: ");
+int N = Convert.ToInt32(Console.ReadLine());
+int[,] array = new int[N, N];
+FilleArray(array);
+PrintArray(array);

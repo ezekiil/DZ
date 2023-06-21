@@ -10,54 +10,34 @@
 9 встречается 3 раза
 */
 
-int[,] FillMatrix(int rows, int columns, int min, int max)
+Console.Write("введите длину массива: ");
+int N = int.Parse(Console.ReadLine()!);
+int[] arr = new int[N];
+Random rnd = new Random();
+for (int i = 0; i < N; i++)
 {
-    int[,] matrix = new int[rows, columns];
-    Random rnd = new Random();
-    for (int i = 0; i < matrix.GetLength(0); i++)
-    {
-        for (int j = 0; j < matrix.GetLength(1); j++)
-        {
-            matrix[i, j] = rnd.Next(min, max + 1);
-        }
-    }
-    return matrix;
+    arr[i] = rnd.Next(0, 10);
 }
 
-void PrintMatrix(int[,] matrix)
+void PrintArray(int[] arr)
 {
-    for (int i = 0; i < matrix.GetLength(0); i++)
+    for (int i = 0; i < arr.Length; i++)
     {
-        for (int j = 0; j < matrix.GetLength(1); j++)
-        {
-            Console.Write($"{matrix[i, j]} ");
-        }
-        Console.WriteLine();
+        Console.Write($"{arr[i]} ");
     }
 }
 
-int[,] SortMatrix2(int[,] matrix)
+int[] SortArray(int[] arr)
 {
-    for (int i = 0; i < matrix.GetLength(0); i++)
-    {
-        for (int j = 0; j < matrix.GetLength(1); j++)
-        {
-            for (int k = 0; k < matrix.GetLength(1) - 1; k++)
-            {
-                if (matrix[i, k] < matrix[i, k + 1])
-                {
-                    int temp = matrix[i, k + 1];
-                    matrix[i, k + 1] = matrix[i, k];
-                    matrix[i, k] = temp;
-                }
-            }
-        }
-    }
-    return matrix;
+    Console.WriteLine("частотный словарь элементов двумерного массива: ");
+var mass = arr.GroupBy(x => x); //группируем массив используя в качестве ключа само число из массива
+ foreach (IGrouping<int, int> group in mass) // проходим по группам и считаем количество элементов
+ Console.WriteLine($"Число {group.Key} встречается {group.Count()} раз");
+return arr;
 }
 
-int[,] matrix2 = FillMatrix(3, 4, 1, 9);
-PrintMatrix(matrix2);
-int[,] sortedMatrix2 = SortMatrix2(matrix2);
-PrintMatrix(sortedMatrix2);
+PrintArray(arr);
+Console.WriteLine();
+SortArray(arr);
+
 

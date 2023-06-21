@@ -11,22 +11,24 @@
 2 6 7
 */ 
 
-int[,] FillMatrix(int rows, int columns, int min, int max)
+int a = 0, b = 0;
+
+int[,] FillMatrix(int N)
 {
-    int[,] matrix = new int[rows, columns];
-    Random rnd = new Random();
-    for (int i = 0; i < matrix.GetLength(0); i++)
+    int[,] matrix = new int[N, N];
+    for (int i = 0; i < N; i++)
     {
-        for (int j = 0; j < matrix.GetLength(1); j++)
+        for (int j = 0; j < N; j++)
         {
-            matrix[i, j] = rnd.Next(min, max + 1);
+            matrix[i, j] = new Random().Next(0, 10);
         }
-    }
+    }    
     return matrix;
 }
 
 void PrintMatrix(int[,] matrix)
 {
+    Console.WriteLine("случайная матрица: ");
     for (int i = 0; i < matrix.GetLength(0); i++)
     {
         for (int j = 0; j < matrix.GetLength(1); j++)
@@ -37,27 +39,42 @@ void PrintMatrix(int[,] matrix)
     }
 }
 
-int[,] SortMatrix(int[,] matrix)
+void SortMatrix(int[,] matrix)
 {
+    int min = matrix[0, 0];
     for (int i = 0; i < matrix.GetLength(0); i++)
     {
         for (int j = 0; j < matrix.GetLength(1); j++)
         {
-            for (int k = 0; k < matrix.GetLength(1) - 1; k++)
+            if (matrix[i, j] < min)
             {
-                if (matrix[i, k] < matrix[i, k + 1])
-                {
-                    int temp = matrix[i, k + 1];
-                    matrix[i, k + 1] = matrix[i, k];
-                    matrix[i, k] = temp;
-                }
+                min = matrix[i, j];
+                a = i; b = j;
             }
         }
     }
-    return matrix;
+    Console.WriteLine("наименьший элемент массива: " + min);
 }
 
-int[,] matrix = FillMatrix(3, 4, 1, 9);
+void NewMatrix(int[,] matrix)
+{
+    Console.WriteLine("новая матрица: ");
+    for (int i = 0; i < matrix.GetLength(0); i++)
+    {
+        for (int j = 0; j < matrix.GetLength(1); j++)
+        {
+            if (i != a && j != b)
+            {
+                Console.Write($"{matrix[i, j]} ");
+            }
+        }
+        Console.WriteLine();
+    }
+}
+
+Console.Write("Введите размер массива: ");
+int N = int.Parse(Console.ReadLine()!);
+int[,] matrix = FillMatrix(N);
 PrintMatrix(matrix);
-Console.WriteLine();
-PrintMatrix(SortMatrix(matrix));
+SortMatrix(matrix);
+NewMatrix(matrix);
